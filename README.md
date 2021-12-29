@@ -8,7 +8,7 @@ This is the repository of the Corneshop test for the Data Scientist position. In
 * Final model in the training.ipynb file in the notebooks/prototypes folder where i made my model with the optimized parameters
 * predictions in the prediction.ipynb file in the in the notebooks/prototypes folder where i made the predictions using my final trained model
 
-The theorical result whas a model usign XGboost Regression that give us a MAE of 10.7 minutes and MSE of 207 minutes. It's important to notice that 75% of the error is less than 14 minutes
+The theorical result whas a model usign XGboost Regression that give us a MAE of 10.7 minutes and MSE of 204.9 minutes. It's important to notice that 75% of the error is less than 15 minutes
 
 
 # Instructions
