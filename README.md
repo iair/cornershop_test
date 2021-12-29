@@ -2,7 +2,7 @@
 
 This is the repository of the Corneshop test for the Data Scientist position. In this repository you will find the solution i made for this challenge which can be separate into 5 stages:
 
-* Extract and transform the data on the get_data.ipynb file in the notebooks/exploratory folder where i extract all the geo-location data that i will use using the geocipy library
+* Extract and transform the data on the get_data.ipynb file in the notebooks/exploratory folder where i added all the geo-location data using the geocipy library and made some usefull transform to the data in order to make a better EDA and modeling
 * Exploratory analysis of the data using basic stadistics (mostly measures of central tendency) and graphical analysis in order to understand the data in the EDA.ipynb fiile in the notebooks/exploratory folder
 * POC of the model in the poc_model.ipynb file in the notebooks/exploratory folder where i tested 3 regression models using different configurations of variables and parameters
 * Final model in the training.ipynb file in the notebooks/prototypes folder where i made my model with the optimized parameters
