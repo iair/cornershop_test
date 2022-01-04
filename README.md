@@ -3,12 +3,20 @@
 This is the repository of the Corneshop test for the Data Scientist position. In this repository you will find the solution i made for this challenge which can be separate into 5 stages:
 
 * Extract and transform the data on the get_data.ipynb file in the notebooks/exploratory folder where i added all the geo-location data using the geocipy library and made some usefull transform to the data in order to make a better EDA and modeling
-* Exploratory analysis of the data using basic stadistics (mostly measures of central tendency) and graphical analysis in order to understand the data in the EDA.ipynb fiile in the notebooks/exploratory folder
-* POC of the model in the poc_model.ipynb file in the notebooks/exploratory folder where i tested 3 regression models using different configurations of variables and parameters
-* Final model in the training.ipynb file in the notebooks/prototypes folder where i made my model with the optimized parameters
-* predictions in the prediction.ipynb file in the in the notebooks/prototypes folder where i made the predictions using my final trained model
 
-The theorical result was MAE of 18.6 minutes and a MSE of 582.9. This results were acomplish using using a XGboost Regression using the scikit-learn interface of the XGBoost package adn Gridsearchcv for parameter optimization
+* Exploratory analysis of the data using basic stadistics (mostly measures of central tendency) and graphical analysis in order to understand the data in the EDA.ipynb fiile in the notebooks/exploratory folder
+
+* POC of the model in the poc_model.ipynb file in the notebooks/exploratory folder where i tested 3 regression models using different configurations of variables and parameters
+
+* Final training of the model is in the training.ipynb file in the notebooks/prototypes folder where i made my model with the optimized parameters
+
+* The trained models are in the models folders with the names : gbq_reg.pkl and xgb_reg.pkl
+
+* Final predictions are in the prediction.ipynb file in the in the notebooks/prototypes folder where i made the predictions using my final trained model
+
+**The theorical result was MAE of 18.8 minutes and a MSE of 682.4**
+
+This results were acomplish using using a XGboost Regression (using the scikit-learn interface of the XGBoost package) for the data with NA's and Graiden Boosting regression with quantile parameter and Gridsearchcv for parameter optimization
 
 
 # Instructions
