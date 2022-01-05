@@ -12,6 +12,10 @@ Given this, we will use two metrics as main indicators:
 
 MAE of orders that arrive late with respect to the prediction, which we will try to minimize
 
+# Something important about the data given
+
+The data that was given for this challenge has 8,000 orders delivered between 7:00 p.m. on 10-18-2019 and 00:00 on 10-20-2019, so the sample is vis a very short time range and in days where " the social outbreak "happened (a great social crisis in Chile), so it is far from being representative and this POC should be taken only as a first approximation to predict the estimated time for delivery of the order."
+
 # Resume of the final results
 
  Final model with XGBoost applied to data with null values and Gradient Boosting Regression with quantile parameter on 90% applied to data withouth null values
