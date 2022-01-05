@@ -14,10 +14,6 @@ This is the repository of the Corneshop test for the Data Scientist position. In
 
 * Final predictions are in the prediction.ipynb file in the in the notebooks/prototypes folder where i made the predictions using my final trained model
 
-**The theorical result was MAE of 18.8 minutes and a MSE of 652.4**
-
-This results were acomplish using using a XGboost Regression (using the scikit-learn interface of the XGBoost package) for the data with NA's and Graiden Boosting regression with quantile parameter 90 and Gridsearchcv for parameter optimization
-
 **Resume of the final results**
 
  Final model with XGBoost applied to data with null values and Gradient Boosting Regression with quantile parameter on 90% applied to data withouth null values
@@ -26,6 +22,8 @@ This results were acomplish using using a XGboost Regression (using the scikit-l
  * Late arrivals MAE : 19.3 minutes
  * General MAE : 1701 minutes
  * General MSE : 35.7 
+
+This results were acomplish using using a XGboost Regression (using the scikit-learn interface of the XGBoost package) for the data with NA's and Graiden Boosting regression with quantile parameter 90 and Gridsearchcv for parameter optimization
 
 
 # Instructions
