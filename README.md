@@ -12,7 +12,7 @@ Given this, we will use two metrics as main indicators:
 
 MAE of orders that arrive late with respect to the prediction, which we will try to minimize
 
-**Resume of the final results**
+# Resume of the final results
 
  Final model with XGBoost applied to data with null values and Gradient Boosting Regression with quantile parameter on 90% applied to data withouth null values
 
