@@ -18,8 +18,7 @@ MAE of orders that arrive late with respect to the prediction, which we will try
 
  * 87.4% of orders will arrive on time or before the estimation time
  * Late arrivals MAE : 19.3 minutes
- * General MAE : 1701 minutes
- * General MSE : 35.7 
+ * Only 6.3% of the orders will arrive more than 14 minutes late
 
 This results were acomplish using using a XGboost Regression (using the scikit-learn interface of the XGBoost package) for the data with NA's and Graiden Boosting regression with quantile parameter 90 and Gridsearchcv for parameter optimization
 
