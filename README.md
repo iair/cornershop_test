@@ -16,7 +16,16 @@ This is the repository of the Corneshop test for the Data Scientist position. In
 
 **The theorical result was MAE of 18.8 minutes and a MSE of 652.4**
 
-This results were acomplish using using a XGboost Regression (using the scikit-learn interface of the XGBoost package) for the data with NA's and Graiden Boosting regression with quantile parameter and Gridsearchcv for parameter optimization
+This results were acomplish using using a XGboost Regression (using the scikit-learn interface of the XGBoost package) for the data with NA's and Graiden Boosting regression with quantile parameter 90 and Gridsearchcv for parameter optimization
+
+**Resume of the final results**
+
+ Final model with XGBoost applied to data with null values and Gradient Boosting Regression with quantile parameter on 90% applied to data withouth null values
+
+ * 87.4% of orders will arrive on time or before the estimation time
+ * Late arrivals MAE : 19.3 minutes
+ * General MAE : 1701 minutes
+ * General MSE : 35.7 
 
 
 # Instructions
